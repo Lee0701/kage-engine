@@ -6,5 +6,6 @@ setup(
     packages=find_packages(include=['kage', 'kage.*']),
     install_requires=[
         'svgwrite==1.4.3',
+        'numpy==1.26.4',
     ],
 )
